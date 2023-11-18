@@ -1,0 +1,37 @@
+.calculator {
+    width: 900px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+}
+
+input[type="text"] {
+    width: 93%;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.number-button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: 1px solid #4CAF50; /* Borde verde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  }
+button {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.number-button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar por encima del botón */
+  }
